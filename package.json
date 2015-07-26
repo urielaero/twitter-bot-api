@@ -2,7 +2,7 @@
   "name": "twitter-bot-api",
   "version": "0.0.1",
   "description": "twitter bot api",
-  "main": "./lib/bot.js",
+  "main": "./lib/twitter.js",
   "scripts": {
     "test": "mocha test/*.js"
   },
