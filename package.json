@@ -1,0 +1,27 @@
+{
+  "name": "twitter-bot-api",
+  "version": "0.0.1",
+  "description": "twitter bot api",
+  "main": "./lib/bot.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "api"
+  ],
+  "author": "uriel.aero@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.0",
+    "jquerygo": "0.0.16",
+    "nightmare": "^1.8.2",
+    "node-notifier": "^4.2.3",
+    "phantom": "^0.7.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
+  }
+}
